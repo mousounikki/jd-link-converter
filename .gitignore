@@ -31,3 +31,6 @@ htmlcov/
 
 # Package archives
 *.zip
+
+# Backup (not tracked)
+v1.0.0-backup/

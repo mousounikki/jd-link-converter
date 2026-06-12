@@ -1,6 +1,11 @@
 """Tests for jd_link_converter."""
 
+import sys
+import os
 import pytest
+
+# 将 scripts 目录加入路径以导入模块
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'scripts'))
 from jd_link_converter import extract_product_id, convert_jd_link
 
 
